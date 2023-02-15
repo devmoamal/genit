@@ -28,7 +28,7 @@ def Gint(length) -> int:
 
 def Gall(length, add_characters = "") -> str:
 
-    characters = "abcdefghijklmnopqrstuvwxyz_." + add_characters
+    characters = "abcdefghijklmnopqrstuvwxyz1234567890_." + add_characters
 
     random_str = ""
 
