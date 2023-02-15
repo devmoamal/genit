@@ -1,7 +1,7 @@
 
 import random
 
-def Gword(length, add_characters = "") -> str:
+def Gstr(length, add_characters = "") -> str:
 
     characters = "abcdefghijklmnopqrstuvwxyz" + add_characters
 
@@ -12,7 +12,7 @@ def Gword(length, add_characters = "") -> str:
 
     return random_str
 
-def Gnum(length) -> int:
+def Gint(length) -> int:
 
     characters = "1234567890"
 
