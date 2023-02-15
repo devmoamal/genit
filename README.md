@@ -1,5 +1,7 @@
-# genit
+# Genit Library
 
-Simple integer and string Generator
+####Install Genit
 
-** Moamal **
+`pip install genit`
+
+
