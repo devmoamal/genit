@@ -4,4 +4,4 @@ Change Log
 0.0.1 (15/02/2023)
 - - - - - - - - - 
 
-- First Realse
+- First release
