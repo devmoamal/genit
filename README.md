@@ -51,8 +51,9 @@ You can aslo add your own characters form add_characters parameter
 import genit
 
 # 8 = length of generation
+# "" = If you want to use your own characters like "$^&@!*-+±§"
 
-random_all = genit.Gall(8)
+random_all = genit.Gall(8, "")
 print(random_all)
 
 # output "kf1a8s46"
@@ -66,7 +67,7 @@ The Gspecial function use your own characters
 import genit
 
 # 8 = length of generation
-# "abc" = my own characters
+# "abc" = your own characters
 
 random_special = genit.Gspecial(8, "abc")
 print(random_special)
