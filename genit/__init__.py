@@ -1,12 +1,9 @@
 
 import random
 
-def Gstr(length, use_characters = False, add_characters = "") -> str:
+def Gword(length, add_characters = "") -> str:
 
-    if (use_characters):
-        characters = "abcdefghijklmnopqrstuvwxyz_." + add_characters
-    else:
-        characters = "abcdefghijklmnopqrstuvwxyz" + add_characters
+    characters = "abcdefghijklmnopqrstuvwxyz" + add_characters
 
     random_str = ""
 
@@ -15,7 +12,7 @@ def Gstr(length, use_characters = False, add_characters = "") -> str:
 
     return random_str
 
-def Gint(length) -> int:
+def Gnum(length) -> int:
 
     characters = "1234567890"
 
@@ -28,7 +25,7 @@ def Gint(length) -> int:
 
 def Gall(length, add_characters = "") -> str:
 
-    characters = "abcdefghijklmnopqrstuvwxyz1234567890_." + add_characters
+    characters = "abcdefghijklmnopqrstuvwxyz1234567890" + add_characters
 
     random_str = ""
 
