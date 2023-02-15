@@ -11,7 +11,7 @@ classifiers  = [
 
 setup(
     name='genit',
-    version='0.0.1',
+    version='0.1',
     description='Simple integer and string Generator',
     Long_description= open("README.md").read() + "\n\n" + open('CHANGELOG.txt').read(),
     url = "https://github.com/devmoamal/genit", 
