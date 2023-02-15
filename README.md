@@ -54,7 +54,7 @@ You can aslo add your own characters form add_characters parameter
 
     # output "kf1a8s_6"
 
-### 3 -  Random Special ###
+### 4 -  Random Special ###
 
 The Gspecial function use your own characters
 
