@@ -9,15 +9,15 @@ genit_version = (
 )
 
 if "-" in genit_version:
+    # when not on tag, git describe outputs: "1.3.3-22-gdf81228"
+    # pip has gotten strict with version numbers
+    # so change it to: "1.3.3+22.git.gdf81228"
+    # See: https://peps.python.org/pep-0440/#local-version-segments
     v,i,s = genit_version.split("-")
     genit_version = v + "+" + i + ".git." + s
 
 assert "-" not in genit_version
 assert "." in genit_version
-
-assert os.path.isfile("genit/version.py")
-with open("genit/VERSION", "w", encoding="utf-8") as fh:
-    fh.write("%s\n" % genit_version)
 
 classifiers  = [
     'Development Status :: 5 - Production/Stable',
