@@ -11,17 +11,14 @@ Genit Library<a name="TOP"></a>
 
 The Gstr function use "abcdefghijklmnopqrstuvwxyz"
 
-If you make use_characters = True will use "_" and "." also
-
 You can aslo add your own characters form add_characters parameter
 
     import genit
     
     # 10 = length of generation
-    # False = don't use ( "." and "_" ) to generate
     # "" = If you want to use your own characters like "$^&@!*-+±§"
        
-    random_string = genit.Gstr(10, False, "")
+    random_string = genit.Gstr(10, "")
     print(random_string)
     
     # output "opemauivye"
@@ -41,7 +38,7 @@ the Gint function use "1234567890"
     
 ### 3 -  Random All ###
 
-The Gall function use "abcdefghijklmnopqrstuvwxyz1234567890_."
+The Gall function use "abcdefghijklmnopqrstuvwxyz1234567890"
 
 You can aslo add your own characters form add_characters parameter
 
@@ -52,7 +49,7 @@ You can aslo add your own characters form add_characters parameter
     random_all = genit.Gall(8)
     print(random_all)
 
-    # output "kf1a8s_6"
+    # output "kf1a8s46"
 
 ### 4 -  Random Special ###
 
