@@ -1,5 +1,6 @@
 Genit Library<a name="TOP"></a>
 ===================
+[![Downloads](https://static.pepy.tech/personalized-badge/genit?period=total&units=international_system&left_color=black&right_color=grey&left_text=Downloads)](https://pepy.tech/project/genit)
 
 ## Install Genit ##
 ```bash
