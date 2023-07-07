@@ -1,7 +1,7 @@
 
 import random
 
-def Gstr(length, add_characters = "") -> str:
+def str(length, add_characters = "") -> str:
 
     characters = "abcdefghijklmnopqrstuvwxyz" + add_characters
 
@@ -12,7 +12,7 @@ def Gstr(length, add_characters = "") -> str:
 
     return random_str
 
-def Gint(length) -> int:
+def int(length) -> int:
 
     characters = "1234567890"
 
@@ -23,7 +23,7 @@ def Gint(length) -> int:
 
     return int(random_int)
 
-def Gall(length, add_characters = "") -> str:
+def all(length, add_characters = "") -> str:
 
     characters = "abcdefghijklmnopqrstuvwxyz1234567890" + add_characters
 
@@ -34,7 +34,7 @@ def Gall(length, add_characters = "") -> str:
 
     return random_str
 
-def Gspecial(length, characters) -> str:
+def special(length, characters) -> str:
 
     characters = "" + characters
     random_str = ""
