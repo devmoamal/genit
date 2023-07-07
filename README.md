@@ -22,7 +22,7 @@ import genit
 # 10 = length of generation
 # "" = If you want to use your own characters like "$^&@!*-+±§"
 
-random_string = genit.Gstr(10, "")
+random_string = genit.str(10, "")
 print(random_string)
 
 # output "opemauivye"
@@ -37,7 +37,7 @@ import genit
 
 # 15 = length of generation
 
-random_integer = genit.Gint(15)
+random_integer = genit.int(15)
 print(random_integer)
 
 # output "483226821395342"
@@ -55,7 +55,7 @@ import genit
 # 8 = length of generation
 # "" = If you want to use your own characters like "$^&@!*-+±§"
 
-random_all = genit.Gall(8, "")
+random_all = genit.all(8, "")
 print(random_all)
 
 # output "kf1a8s46"
@@ -71,7 +71,7 @@ import genit
 # 8 = length of generation
 # "abc" = your own characters
 
-random_special = genit.Gspecial(8, "abc")
+random_special = genit.special(8, "abc")
 print(random_special)
 
 # output "abcccbab"
