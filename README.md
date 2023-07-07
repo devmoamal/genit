@@ -1,6 +1,6 @@
 Genit Library<a name="TOP"></a>
 ===================
-[![Downloads](https://static.pepy.tech/personalized-badge/genit?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/genit)
+[![Downloads](https://static.pepy.tech/personalized-badge/genit?period=total&units=international_system&left_color=gray&right_color=orange&left_text=Downloads)](https://pepy.tech/project/genit)
 ![PyPI](https://img.shields.io/pypi/v/genit)
 
 ## Install Genit ##
